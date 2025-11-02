@@ -1,116 +1,116 @@
-// Blog posts data - 여기에 글을 추가/수정/삭제하세요
+// Blog posts data - Add/edit/delete posts here
 const blogPosts = [
     {
         id: 1,
-        title: "디지털 트윈 기반 건물 에너지 관리의 미래",
+        title: "The Future of Building Energy Management with Digital Twin Technology",
         date: "2024-11-02",
-        excerpt: "디지털 트윈 기술이 건물 에너지 관리 분야에 어떻게 혁신을 가져오고 있는지, 그리고 향후 발전 방향에 대해 논의합니다.",
+        excerpt: "Exploring how digital twin technology is revolutionizing building energy management and future development directions.",
         content: `
-            <p>디지털 트윈은 물리적 자산의 가상 복제본을 생성하여 실시간으로 상태를 모니터링하고 예측하는 기술입니다. 건물 에너지 관리 분야에서 이 기술은 게임 체인저가 되고 있습니다.</p>
+            <p>Digital twin technology creates virtual replicas of physical assets to monitor and predict real-time status. In building energy management, this technology is becoming a game changer.</p>
             
-            <h3>왜 디지털 트윈인가?</h3>
-            <p>전통적인 BEMS는 모니터링과 가시화에 중점을 두었지만, 실질적인 에너지 관리 목표에 맞게 운용하기 어려웠습니다. 디지털 트윈은 시뮬레이션 모델과 실시간 데이터를 결합하여 높은 신뢰성의 예측과 제어를 가능하게 합니다.</p>
+            <h3>Why Digital Twin?</h3>
+            <p>Traditional BEMS focused on monitoring and visualization, but struggled to operate according to actual energy management objectives. Digital twins combine simulation models with real-time data to enable highly reliable prediction and control.</p>
             
-            <h3>핵심 구현 요소</h3>
-            <p>박사 논문에서 제안한 디지털 에너지 트윈 모델은 다음과 같은 특징을 가집니다:</p>
+            <h3>Key Implementation Components</h3>
+            <p>The digital energy twin model proposed in my doctoral dissertation features:</p>
             <ul>
-                <li>비용 효과적인 시뮬레이션 모델 구축 (계산량 40% 절감)</li>
-                <li>하이브리드 모델 기반 고정밀 수요예측 (R² > 0.87)</li>
-                <li>건물군 단위의 통합관리 프레임워크</li>
+                <li>Cost-effective simulation model construction (40% reduction in computational load)</li>
+                <li>High-precision demand forecasting based on hybrid models (R² > 0.87)</li>
+                <li>Integrated management framework for building portfolios</li>
             </ul>
             
-            <h3>실증 결과</h3>
-            <p>10개소의 오피스 건물을 대상으로 한 실증에서 난방 14.6%, 냉방 5.9%의 에너지 절감을 달성했습니다. 이는 단순 모니터링을 넘어 실질적인 에너지 관리가 가능함을 보여줍니다.</p>
+            <h3>Demonstration Results</h3>
+            <p>Field demonstration across 10 office buildings achieved 14.6% heating and 5.9% cooling energy savings. This proves that practical energy management beyond simple monitoring is possible.</p>
             
-            <h3>향후 방향</h3>
-            <p>멀티 에이전트 기반 통합관리 시스템과 로컬 LLM을 활용한 운영 지원 챗봇 개발을 계획하고 있습니다.</p>
+            <h3>Future Directions</h3>
+            <p>Planning to develop multi-agent-based integrated management systems and operational support chatbots utilizing local LLMs.</p>
         `
     },
     {
         id: 2,
-        title: "BEMS 시장 트렌드: SaaS 모델과 경량화",
+        title: "BEMS Market Trends: SaaS Models and Lightweight Technologies",
         date: "2024-10-28",
-        excerpt: "글로벌 BEMS 시장이 SaaS 모델로 전환되는 이유와 경량화 기술의 중요성에 대해 분석합니다.",
+        excerpt: "Analyzing why the global BEMS market is transitioning to SaaS models and the importance of lightweight technologies.",
         content: `
-            <p>건물 에너지 관리 시스템(BEMS) 시장이 급격히 성장하고 있습니다. 2021년 글로벌 시장 규모 19.4억 달러에서 2025년 약 30억 달러로 성장할 것으로 전망됩니다.</p>
+            <p>The Building Energy Management System (BEMS) market is experiencing rapid growth. The global market is projected to grow from $1.94 billion in 2021 to approximately $3 billion by 2025.</p>
             
-            <h3>시장 변화의 핵심 동인</h3>
-            <p>세 가지 주요 트렌드가 시장을 주도하고 있습니다:</p>
+            <h3>Key Market Drivers</h3>
+            <p>Three major trends are driving the market:</p>
             
-            <h3>1. 클라우드 플랫폼 모듈화</h3>
-            <p>기존의 대형 통합 시스템에서 모듈형 구독 서비스로 전환되고 있습니다. 이는 초기 투자 부담을 줄이고 확장성을 확보하는 핵심 전략입니다.</p>
+            <h3>1. Cloud Platform Modularization</h3>
+            <p>Shifting from large integrated systems to modular subscription services. This is a key strategy to reduce initial investment and ensure scalability.</p>
             
-            <h3>2. 스마트 BEMS (IoT + AI)</h3>
-            <p>단순 모니터링을 넘어 예측 유지보수와 예측 제어가 가능한 고도화된 시스템으로 진화하고 있습니다. 저희 연구에서 개발한 AI 기반 수요예측 모델이 바로 이러한 트렌드를 반영합니다.</p>
+            <h3>2. Smart BEMS (IoT + AI)</h3>
+            <p>Evolving beyond simple monitoring to advanced systems capable of predictive maintenance and predictive control. Our AI-based demand forecasting model reflects exactly this trend.</p>
             
-            <h3>3. 경량화 기술</h3>
-            <p>중소형 건물에 적용하기 위해서는 비용 효과적인 솔루션이 필수입니다. BES 모델 보정과 AI 모델 스택을 결합하여 계산 비용을 40% 절감하면서도 높은 정확도를 유지하는 방법론을 개발했습니다.</p>
+            <h3>3. Lightweight Technology</h3>
+            <p>Cost-effective solutions are essential for application to small and medium-sized buildings. We developed a methodology combining BES model calibration with AI model stacking, reducing computational costs by 40% while maintaining high accuracy.</p>
             
-            <h3>국내 시장 전망</h3>
-            <p>국내 BEMS 시장도 2021년 3,240억 원에서 연평균 10.4% 성장하여 2025년 4,820억 원 규모로 성장할 전망입니다. 특히 공공건물과 상업용 건물에서의 수요가 급증하고 있습니다.</p>
+            <h3>Domestic Market Outlook</h3>
+            <p>The domestic BEMS market is also projected to grow from 324 billion won in 2021 to 482 billion won by 2025, with an average annual growth rate of 10.4%. Demand is particularly surging in public and commercial buildings.</p>
         `
     },
     {
         id: 3,
-        title: "가상센서 기반 에너지 데이터 수집의 혁신",
+        title: "Innovation in Energy Data Collection with Virtual Sensors",
         date: "2024-10-15",
-        excerpt: "물리적 센서의 한계를 극복하는 가상센서 기술과 그 활용 방안에 대해 소개합니다.",
+        excerpt: "Introducing virtual sensor technology that overcomes the limitations of physical sensors and its applications.",
         content: `
-            <p>건물 에너지 관리에서 데이터 수집은 모든 것의 시작입니다. 하지만 물리적 센서만으로는 건물 전역의 데이터를 확보하기 어렵습니다.</p>
+            <p>Data collection is the foundation of building energy management. However, it is difficult to secure building-wide data with physical sensors alone.</p>
             
-            <h3>물리 센서의 한계</h3>
-            <p>전통적인 센서 네트워크는 다음과 같은 문제를 가지고 있습니다:</p>
+            <h3>Limitations of Physical Sensors</h3>
+            <p>Traditional sensor networks have the following issues:</p>
             <ul>
-                <li>설치 비용이 높음</li>
-                <li>공간적 음영 영역 존재</li>
-                <li>유지보수 부담</li>
-                <li>센서 고장 시 데이터 손실</li>
+                <li>High installation costs</li>
+                <li>Spatial blind spots</li>
+                <li>Maintenance burden</li>
+                <li>Data loss during sensor failures</li>
             </ul>
             
-            <h3>가상센서의 원리</h3>
-            <p>가상센서는 물리적 센서 데이터와 시뮬레이션 모델을 결합하여 측정되지 않는 위치의 데이터를 추정합니다. 머신러닝 기반 데이터 융합 기법을 활용하여 높은 정확도를 달성할 수 있습니다.</p>
+            <h3>Virtual Sensor Principles</h3>
+            <p>Virtual sensors combine physical sensor data with simulation models to estimate data at unmeasured locations. High accuracy can be achieved using machine learning-based data fusion techniques.</p>
             
-            <h3>실제 적용 사례</h3>
-            <p>한중협력연구 프로젝트에서 유비쿼터스 센서 네트워크와 가상센서를 결합하여 건물 에너지 모니터링 시스템을 구축했습니다. 물리 센서가 설치되지 않은 구역의 온도와 에너지 소비를 95% 이상의 정확도로 추정할 수 있었습니다.</p>
+            <h3>Practical Application Case</h3>
+            <p>In a Korea-China collaboration project, we built a building energy monitoring system combining ubiquitous sensor networks with virtual sensors. We achieved over 95% accuracy in estimating temperature and energy consumption in areas without physical sensors.</p>
             
-            <h3>특허 출원</h3>
-            <p>이 기술을 바탕으로 "가상센서 기반 자동제어 시스템" 특허를 출원했습니다 (출원번호: 10-2024-0195107). 가상센서로 수집된 데이터를 활용한 자율제어 시스템으로 발전시킬 계획입니다.</p>
+            <h3>Patent Application</h3>
+            <p>Based on this technology, we filed a patent for "Virtual Sensor-Based Automatic Control System" (Application No. 10-2024-0195107). We plan to develop it into an autonomous control system utilizing data collected by virtual sensors.</p>
             
-            <h3>미래 방향</h3>
-            <p>가상센서 기술은 디지털 트윈의 핵심 구성요소가 될 것입니다. 실시간 데이터와 시뮬레이션의 결합으로 더욱 정교한 에너지 관리가 가능해질 것입니다.</p>
+            <h3>Future Direction</h3>
+            <p>Virtual sensor technology will become a core component of digital twins. The combination of real-time data and simulation will enable more sophisticated energy management.</p>
         `
     },
     {
         id: 4,
-        title: "AI 기반 수요예측: 하이브리드 모델의 우수성",
+        title: "AI-Based Demand Forecasting: Excellence of Hybrid Models",
         date: "2024-09-20",
-        excerpt: "순수 데이터 기반 모델과 물리 기반 모델을 결합한 하이브리드 접근법이 왜 더 우수한지 설명합니다.",
+        excerpt: "Explaining why hybrid approaches combining pure data-driven models with physics-based models are superior.",
         content: `
-            <p>건물 에너지 수요예측에는 크게 두 가지 접근법이 있습니다: 데이터 기반 모델(DDM)과 물리 기반 모델(PEM). 각각의 장단점을 이해하고 결합하는 것이 핵심입니다.</p>
+            <p>There are two main approaches to building energy demand forecasting: Data-Driven Models (DDM) and Physics-based Engineering Models (PEM). Understanding and combining their respective advantages and disadvantages is key.</p>
             
-            <h3>데이터 기반 모델 (DDM)</h3>
-            <p>머신러닝/딥러닝을 활용한 접근법입니다.</p>
-            <p><strong>장점:</strong> 빠른 학습, 복잡한 패턴 인식</p>
-            <p><strong>단점:</strong> 블랙박스, 물리적 해석 어려움, 학습 데이터 의존성</p>
+            <h3>Data-Driven Models (DDM)</h3>
+            <p>Machine learning/deep learning-based approaches.</p>
+            <p><strong>Advantages:</strong> Fast learning, complex pattern recognition</p>
+            <p><strong>Disadvantages:</strong> Black box, difficult physical interpretation, training data dependency</p>
             
-            <h3>물리 기반 모델 (PEM)</h3>
-            <p>TRNSYS, EnergyPlus 등의 시뮬레이션 도구를 활용합니다.</p>
-            <p><strong>장점:</strong> 물리적 해석 가능, 새로운 시나리오 테스트 용이</p>
-            <p><strong>단점:</strong> 정확한 입력 데이터 필요, 계산 비용 높음</p>
+            <h3>Physics-Based Models (PEM)</h3>
+            <p>Utilizing simulation tools like TRNSYS and EnergyPlus.</p>
+            <p><strong>Advantages:</strong> Physically interpretable, easy to test new scenarios</p>
+            <p><strong>Disadvantages:</strong> Requires accurate input data, high computational costs</p>
             
-            <h3>하이브리드 모델의 혁신</h3>
-            <p>Energy 저널에 발표한 논문에서 제안한 Two-Process 하이브리드 모델은:</p>
+            <h3>Innovation of Hybrid Models</h3>
+            <p>The Two-Process hybrid model proposed in our Energy journal paper:</p>
             <ol>
-                <li>PEM으로 건물의 물리적 특성 반영</li>
-                <li>DDM으로 실시간 운영 패턴 학습</li>
-                <li>두 모델의 앙상블로 최종 예측</li>
+                <li>Reflects building physical characteristics with PEM</li>
+                <li>Learns real-time operational patterns with DDM</li>
+                <li>Ensemble of both models for final prediction</li>
             </ol>
             
-            <h3>성능 검증</h3>
-            <p>CV-RMSE 기준으로 난방 14.6%, 냉방 5.9%의 높은 정확도를 달성했습니다. 이는 ASHRAE 가이드라인(15%)을 충족하는 수준입니다.</p>
+            <h3>Performance Validation</h3>
+            <p>Achieved high accuracy with CV-RMSE of 14.6% for heating and 5.9% for cooling. This meets ASHRAE guidelines (15%).</p>
             
-            <h3>실용적 가치</h3>
-            <p>예측된 부하를 기반으로 설정온도 제어 가이드를 자동 생성할 수 있어, 자율제어 시스템과의 연동이 가능합니다.</p>
+            <h3>Practical Value</h3>
+            <p>Can automatically generate set-point temperature control guidelines based on predicted loads, enabling integration with autonomous control systems.</p>
         `
     }
 ];
