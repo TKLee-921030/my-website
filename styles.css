@@ -266,6 +266,39 @@ body {
     margin-bottom: 25px;
 }
 
+.education-section,
+.skills-section {
+    margin-top: 40px;
+}
+
+.education-section h4,
+.skills-section h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: var(--gray-bg);
+    border-left: 3px solid var(--primary-color);
+}
+
+.education-item strong {
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.skills-section p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.skills-section strong {
+    color: var(--primary-color);
+}
+
 .interests {
     margin-top: 50px;
 }
@@ -298,6 +331,18 @@ body {
 }
 
 /* Research Page */
+.research-category {
+    margin-bottom: 80px;
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
 .research-list {
     display: flex;
     flex-direction: column;
@@ -356,6 +401,95 @@ body {
 
 .link-button:hover {
     transform: translateX(5px);
+}
+
+.research-summary {
+    margin-top: 60px;
+    padding: 40px;
+    background: var(--gray-bg);
+    border-left: 4px solid var(--primary-color);
+}
+
+.research-summary h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.research-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.research-summary li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+.research-summary li:before {
+    content: "✓ ";
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Work Experience Section */
+.work-experience {
+    margin-top: 80px;
+}
+
+.experience-item {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    background: var(--background);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.exp-header h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.exp-period {
+    font-size: 13px;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.exp-position {
+    font-size: 15px;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.exp-details {
+    list-style: none;
+    padding-left: 0;
+}
+
+.exp-details li {
+    padding: 8px 0;
+    padding-left: 20px;
+    position: relative;
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.exp-details li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 /* Projects Page */
@@ -552,6 +686,22 @@ body {
     color: var(--primary-color);
 }
 
+#modal-body .content ul,
+#modal-body .content ol {
+    margin: 20px 0;
+    padding-left: 30px;
+    color: var(--secondary-color);
+}
+
+#modal-body .content li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+#modal-body .content strong {
+    color: var(--primary-color);
+}
+
 /* Contact Page */
 .contact-layout {
     display: grid;
@@ -601,6 +751,46 @@ body {
     line-height: 1.8;
     color: var(--secondary-color);
     margin-bottom: 20px;
+}
+
+.contact-item p {
+    color: var(--primary-color);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.research-interests {
+    margin-top: 40px;
+    padding: 30px;
+    background: var(--gray-bg);
+    border-left: 3px solid var(--primary-color);
+}
+
+.research-interests h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.research-interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.research-interests li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+
+.research-interests li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 /* Footer */
