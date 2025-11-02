@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taekyu Lee - Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">TAEKYU LEE</div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active" data-tab="home">HOME</a></li>
+                <li><a href="#" class="nav-link" data-tab="about">소개</a></li>
+                <li><a href="#" class="nav-link" data-tab="research">연구실적</a></li>
+                <li><a href="#" class="nav-link" data-tab="projects">프로젝트</a></li>
+                <li><a href="#" class="nav-link" data-tab="blog">진행 중인 연구</a></li>
+                <li><a href="#" class="nav-link" data-tab="contact">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+        
+        <!-- Home Tab -->
+        <section id="home" class="tab-content active">
+            <div class="hero-section">
+                <div class="hero-background"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">이태규</h1>
+                    <p class="hero-subtitle">RESEARCHER & DEVELOPER</p>
+                    <p class="hero-description">연구와 혁신을 통해 가치를 창출합니다</p>
+                </div>
+            </div>
+            
+            <div class="home-grid">
+                <div class="home-card" onclick="switchTab('research')">
+                    <div class="card-icon">📚</div>
+                    <h3>연구실적</h3>
+                    <p>최신 연구 논문 및 출판물</p>
+                </div>
+                <div class="home-card" onclick="switchTab('projects')">
+                    <div class="card-icon">💻</div>
+                    <h3>프로젝트</h3>
+                    <p>진행한 주요 프로젝트</p>
+                </div>
+                <div class="home-card" onclick="switchTab('blog')">
+                    <div class="card-icon">✍️</div>
+                    <h3>진행 중인 연구</h3>
+                    <p>연구 노트 및 인사이트</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Tab -->
+        <section id="about" class="tab-content">
+            <div class="content-wrapper">
+                <h2 class="page-title">소개</h2>
+                <div class="about-layout">
+                    <div class="about-image">
+                        <div class="profile-placeholder">
+                            <span>사진</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>반갑습니다</h3>
+                        <p>
+                            연구와 개발을 통해 새로운 가치를 창출하는 것에 관심이 있습니다.
+                            이곳에서 제 연구 실적과 진행 중인 프로젝트, 그리고 다양한 생각들을 공유합니다.
+                        </p>
+                        <p>
+                            학술적 엄밀함과 실용적 혁신 사이의 균형을 추구하며,
+                            지속적인 학습과 성장을 통해 의미 있는 기여를 하고자 합니다.
+                        </p>
+                        
+                        <div class="interests">
+                            <h4>관심 분야</h4>
+                            <div class="tag-list">
+                                <span class="tag">인공지능</span>
+                                <span class="tag">데이터 분석</span>
+                                <span class="tag">머신러닝</span>
+                                <span class="tag">소프트웨어 개발</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Tab -->
+        <section id="research" class="tab-content">
+            <div class="content-wrapper">
+                <h2 class="page-title">연구실적</h2>
+                <div class="research-list">
+                    <div class="research-item">
+                        <div class="year-badge">2024</div>
+                        <div class="research-content">
+                            <h3>논문 제목 예시 1</h3>
+                            <p class="meta">학술지명 | 공저자 등</p>
+                            <p class="description">연구 내용에 대한 간단한 설명이 들어갑니다. 주요 발견사항과 기여도에 대해 설명합니다.</p>
+                            <a href="#" class="link-button">자세히 보기 →</a>
+                        </div>
+                    </div>
+                    <div class="research-item">
+                        <div class="year-badge">2024</div>
+                        <div class="research-content">
+                            <h3>논문 제목 예시 2</h3>
+                            <p class="meta">학술지명 | 공저자 등</p>
+                            <p class="description">연구 내용에 대한 간단한 설명이 들어갑니다. 주요 발견사항과 기여도에 대해 설명합니다.</p>
+                            <a href="#" class="link-button">자세히 보기 →</a>
+                        </div>
+                    </div>
+                    <div class="research-item">
+                        <div class="year-badge">2023</div>
+                        <div class="research-content">
+                            <h3>논문 제목 예시 3</h3>
+                            <p class="meta">학술지명 | 공저자 등</p>
+                            <p class="description">연구 내용에 대한 간단한 설명이 들어갑니다. 주요 발견사항과 기여도에 대해 설명합니다.</p>
+                            <a href="#" class="link-button">자세히 보기 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Tab -->
+        <section id="projects" class="tab-content">
+            <div class="content-wrapper">
+                <h2 class="page-title">프로젝트</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">프로젝트 1</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>프로젝트 제목 1</h3>
+                            <p class="meta">2024</p>
+                            <p>프로젝트에 대한 상세한 설명입니다. 사용된 기술, 목적, 결과 등을 포함합니다.</p>
+                            <div class="tech-stack">
+                                <span class="tech">Python</span>
+                                <span class="tech">React</span>
+                                <span class="tech">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">프로젝트 2</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>프로젝트 제목 2</h3>
+                            <p class="meta">2023-2024</p>
+                            <p>프로젝트에 대한 상세한 설명입니다. 사용된 기술, 목적, 결과 등을 포함합니다.</p>
+                            <div class="tech-stack">
+                                <span class="tech">JavaScript</span>
+                                <span class="tech">Node.js</span>
+                                <span class="tech">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">프로젝트 3</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>프로젝트 제목 3</h3>
+                            <p class="meta">2023</p>
+                            <p>프로젝트에 대한 상세한 설명입니다. 사용된 기술, 목적, 결과 등을 포함합니다.</p>
+                            <div class="tech-stack">
+                                <span class="tech">TensorFlow</span>
+                                <span class="tech">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Tab -->
+        <section id="blog" class="tab-content">
+            <div class="content-wrapper">
+                <h2 class="page-title">진행 중인 연구</h2>
+                <div id="blog-posts" class="blog-grid">
+                    <!-- Blog posts will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Tab -->
+        <section id="contact" class="tab-content">
+            <div class="content-wrapper">
+                <h2 class="page-title">연락처</h2>
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:taekyu.lee@example.com">taekyu.lee@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">💼</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/taekyulee" target="_blank">github.com/taekyulee</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🔗</div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/taekyulee" target="_blank">linkedin.com/in/taekyulee</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-message">
+                        <h3>메시지 보내기</h3>
+                        <p>협업이나 문의사항이 있으시면 언제든 연락주세요.</p>
+                        <p>연구 관련 논의나 프로젝트 제안을 환영합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Blog Post Modal -->
+    <div id="blog-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Taekyu Lee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
